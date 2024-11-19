@@ -1,0 +1,162 @@
+Q1/
+- first it will print (" hey from message 1")
+-second store "1" in container until method call String when method call String it will print "1"
+
+**** the output will be 
+ hey from message 1
+
+
+---------------------------------------------------------------------------
+
+
+
+Q2/
+
+-First directly it will start with getmessage1 because it does not has any parameter . also it has @Qulifire
+
+- after that it will print any sentence in message2 --> because it will work after method Getmessage1 because of Qualifier that in Parameter
+
+
+*** when we use @Qualifier we take the String that Stored in Container from method Getmessage1 
+
+
+****the output will be 
+hey from message 1
+hey from message 2
+
+
+
+
+---------------------------------------------------------------------------
+
+Q3/
+
+
+-maybe it will start with Getmessage1 or Getmessage3
+-when it start with Getmessage3 it will go after that to Getmessage2
+
+**** the output will be
+hey from message 1
+hey from message 3
+hey from message 2
+
+Or 
+
+hey from message 3
+hey from message 2
+hey from message 1
+
+
+
+---------------------------------------------------------------------------
+
+Q4/
+-Maybe start with message 1 or message 3
+
+
+****the output will be 
+hey from message 1
+hey from main controller
+hey from message 3
+hey from message 2
+
+or 
+hey from message 3
+hey from message 1
+hey from main controller
+hey from message 2
+ 
+
+or 
+
+hey from message 3
+hey from message 1
+hey from main controller
+hey from message 2
+
+or
+hey from message 3
+hey from message 1
+hey from message 2
+hey from main controller
+
+or
+hey from message 1
+hey from message 3
+hey from message 2
+hey from main controller
+
+
+or
+hey from message 1
+hey from message 3
+hey from main controller
+hey from message 2
+ 
+ 
+
+
+
+
+
+
+---------------------------------------------------------------------------
+
+
+Q5/
+ -for sure it will start with Getmessage3 because it dose not has any parameter 
+
+
+-also for sure MainController it will print under Getmessage2 because of @Qulifire 
+
+
+
+
+-also for sure Getmessage2 it will print under Getmessage3 because of @Qulifire 
+
+
+
+**** the output will be 
+
+-hey from message 3
+-hey from message 1
+-hey from message 2
+-hey from Main Controller
+
+or
+
+
+-hey from message 3
+-hey from message 2
+-hey from message 1
+-hey from Main Controller
+
+or
+
+
+-hey from message 3
+-hey from message 2
+-hey from Main Controller
+-hey from message 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
